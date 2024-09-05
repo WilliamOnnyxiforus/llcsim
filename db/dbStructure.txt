@@ -1,0 +1,23 @@
+Role:
+- Admin
+- Pengurus ( g bsa liat user list)
+- pengajar (Tutor / LCS / SME)
+- Student
+
+Table needs:
+- Users table / member table (DONE)
+- employee table - record login doank (DONE)
+- Member / official table (official dan keanggotaan) - without CV (DONE)
+- Periode table (DONE)
+- Role table (DONE)
+- Subject table (DONE)
+- Class table - Platform cuman offline / online (DONE)
+- Enrollment table (buat pendaftaran muridnya) (DONE)
+- classType table (DONE)
+- sponsor table - incidentil & routine (DONE)
+- community table - keyperson diambil dari usersTable
+- communityType table 
+- SME Table --> ke connect sama OfficialID / memberID table dan communityID dari communityTable
+- donation table - date, donation type memberId
+- donationType table (item / location / fund)
+- location table (address, city)
