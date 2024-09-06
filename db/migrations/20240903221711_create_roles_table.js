@@ -5,7 +5,7 @@
 exports.up = function(knex) {
     return knex.schema.createTable('roles', function (table) {
         table.increments('id').primary();
-        table.string('roleName', 255).notNullable().unique();
+        table.string('name', 255).notNullable().unique();
         table.text('description');
         table.text('requirements');
       });

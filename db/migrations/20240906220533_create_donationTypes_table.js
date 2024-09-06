@@ -3,11 +3,9 @@
  * @returns { Promise<void> }
  */
 exports.up = function(knex) {
-    return knex.schema.createTable('periodes', function (table) {
+    return knex.schema.createTable('donationTypes', function (table) {
         table.increments('id').primary();
         table.string('name', 255).notNullable().unique();
-        table.date('startDate');
-        table.date('endDate');
       });
 };
 
@@ -16,5 +14,5 @@ exports.up = function(knex) {
  * @returns { Promise<void> }
  */
 exports.down = function(knex) {
-    return knex.schema.dropTable('periodes');
+    return knex.schema.dropTable('donationTypes');
 };

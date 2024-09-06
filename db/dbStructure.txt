@@ -15,9 +15,9 @@ Table needs:
 - Enrollment table (buat pendaftaran muridnya) (DONE)
 - classType table (DONE)
 - sponsor table - incidentil & routine (DONE)
-- community table - keyperson diambil dari usersTable
-- communityType table 
-- SME Table --> ke connect sama OfficialID / memberID table dan communityID dari communityTable
-- donation table - date, donation type memberId
-- donationType table (item / location / fund)
-- location table (address, city)
+- community table - keyperson diambil dari usersTable (DONE)
+- communityType table (DONE)
+- SME Table --> ke connect sama OfficialID / memberID table dan communityID dari communityTable (DONE)
+- donation table - date, donation type memberId (DONE)
+- donationType table (item / location / fund) (DONE)
+- location table (address, city) (DONE)
